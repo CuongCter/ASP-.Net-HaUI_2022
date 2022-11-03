@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Tinh";
+}
+
+<table border="1" cellpadding="0" cellspacing="0">
+    <caption><h2>Tính tiền điện</h2></caption>
+    <tr>
+        <td>Họ tên chủ hộ: </td>
+        <td>
+            @ViewBag.tenChuHo
+        </td>
+    </tr>
+    <tr>
+        <td>Số điện tiêu thụ:</td>
+        <td colspan="2">
+            @ViewBag.soDien KW
+        </td>
+    </tr>
+    <tr>
+        <td>Tiền phải trả:</td>
+        <td colspan="2">
+            @ViewBag.tienDien Đồng
+        </td>
+    </tr>
+</table>

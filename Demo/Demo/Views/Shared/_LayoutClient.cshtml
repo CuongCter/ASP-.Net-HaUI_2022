@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/wwwroot/CSS/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page">
+        <div id="header">
+            <div id="logo">
+                <img src="~/wwwroot/images/big_img.jpg" alt="" border="0" /> &nbsp; &nbsp;
+                <a>
+                    <img src="~/wwwroot/images/logo.jpg" alt="Nhà sách Minh Sơn" border="0" />
+                </a>
+            </div>
+            <div id="menung">
+                <ul>
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Giới thiệu", "About", "Home")</li>
+                    <li>@Html.ActionLink("Liên hệ", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Sản phẩm", "Product", "Home")</li>
+                    <li>@Html.ActionLink("Giỏ hàng", "Cart", "Home")</li>
+                </ul>
+            </div>
+        </div>
+        <div id="main">
+            <div id="left">
+                <div id="menud">
+                    <p style="color:blue">Danh mục sách</p>
+                    <ul>
+                        <li>@Html.ActionLink("Ngoại ngữ", "", "")</li>
+                        <li>@Html.ActionLink("Công nghệ thông tin", "", "")</li>
+                        <li>@Html.ActionLink("Luật", "", "")</li>
+                        <li>@Html.ActionLink("Văn học", "", "")</li>
+                        <li>@Html.ActionLink("Khoa học kỹ thuật", "", "")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                @RenderBody()
+            </div>
+
+        </div>
+        <div id="footer">
+            <p>
+                &copy;Copyright: 2022 <br />
+                ASP.NET MVC project
+            </p>
+            <p>
+                Học lập trình <br />
+                Khoa CNTT - ĐHCN Hà Nội <br />
+                Minh  Khai, Từ Liêm, Hà Nội
+            </p>
+        </div>
+    </div>
+</body>
+</html>

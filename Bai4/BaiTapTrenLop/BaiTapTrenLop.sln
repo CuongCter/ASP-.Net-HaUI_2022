@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTapTrenLop", "BaiTapTrenLop\BaiTapTrenLop.csproj", "{AEEA530B-6914-4E15-BFD7-0709FC89BF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTTL_2", "BTTL_2\BTTL_2.csproj", "{21381E39-720E-4C1E-9F88-DE06BB3194AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bai3", "bai3\bai3.csproj", "{68942D11-2D84-4207-8EF2-D5AD91B5F0CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEEA530B-6914-4E15-BFD7-0709FC89BF21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEEA530B-6914-4E15-BFD7-0709FC89BF21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEEA530B-6914-4E15-BFD7-0709FC89BF21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEEA530B-6914-4E15-BFD7-0709FC89BF21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21381E39-720E-4C1E-9F88-DE06BB3194AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21381E39-720E-4C1E-9F88-DE06BB3194AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21381E39-720E-4C1E-9F88-DE06BB3194AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21381E39-720E-4C1E-9F88-DE06BB3194AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68942D11-2D84-4207-8EF2-D5AD91B5F0CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68942D11-2D84-4207-8EF2-D5AD91B5F0CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68942D11-2D84-4207-8EF2-D5AD91B5F0CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68942D11-2D84-4207-8EF2-D5AD91B5F0CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {627B36EC-DC34-4B90-90BD-F8239EE99DF2}
+	EndGlobalSection
+EndGlobal

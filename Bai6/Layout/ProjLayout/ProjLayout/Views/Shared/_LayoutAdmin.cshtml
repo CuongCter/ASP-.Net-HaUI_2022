@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="~/wwwroot/CSS/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page">
+        <div id="header" style="display:flex;align-items:center">
+            <div id="logo" style="background-color: yellow">
+                <img src="~/wwwroot/images/avt.jpg" alt="Avt Admin" border="0" width="200px" /> &nbsp; &nbsp;
+            </div>
+            <div style="background-color: blue;display:flex; justify-content:center; width: 100%;text-align:center; height:200px; align-items:center">
+                <a style="flex:1; ">
+                    <h1>TRANG QUẢN TRỊ</h1>
+                </a>
+            </div>
+            
+        </div>
+        <div id="main">
+            <div id="left">
+                <div id="menud">
+                    <ul>
+                        <li>@Html.ActionLink("Quản lý sản phẩm", "Products", "Admin")</li>
+                        <li>@Html.ActionLink("Quản lý đơn hàng", "Order", "Admin")</li>
+                        <li>@Html.ActionLink("Quản lý khách hàng", "Client", "Admin")</li>
+                        <li>@Html.ActionLink("Quản lý tin tức", "News", "Admin")</li>
+                        <li>@Html.ActionLink("Quản lý tài khoản", "Account", "Admin")</li>
+                        <li>@Html.ActionLink("Đăng xuất", "Logout", "Admin")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form action="/Calculate/XuLy" method="post">
+    <label>Nhập a:</label>
+    <input name="SoA" type="number" step="0.1"/>
+    <br />
+    <label>Nhập b:</label>
+    <input name="SoB" type="number" step="0.1"/>
+    <br />
+    <input id="radio_1" type="radio" name="Phep" value="+" /> 
+    <label for="radio_1">Cộng </label>
+    <input id="radio_2" type="radio" name="Phep" value="-" /> 
+    <label for="radio_2">Trừ </label>
+    <input id="radio_3" type="radio" name="Phep" value="*" /> 
+    <label for="radio_3">Nhân </label>
+    <input id="radio_4" type="radio" name="Phep" value="/" /> 
+    <label for="radio_4">Chia </label>
+    <br />
+    <input type="submit" value="calculate" />
+</form>
